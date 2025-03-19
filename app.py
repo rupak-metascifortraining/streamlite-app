@@ -13,7 +13,7 @@ st.write(f'Slider Value: {slider_value}')
 # Add a button that shows an image when clicked
 if st.button('Show Image'):
     # Load an image using PIL
-    img = Image.open(r"C:\Users\91984\Downloads\python_streamline.jpg")  # Use raw string here
+    img = Image.open('python_streamline.jpg')  # Use raw string here
     
     # Display the image
     st.image(img, caption='Python Image - Rupak Charan', use_column_width=True)
